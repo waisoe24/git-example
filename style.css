@@ -1,0 +1,119 @@
+
+*{
+    font-family: 'Tourney' sans-serif;
+    transition: 0.5s;
+}
+
+body{
+    background-color: #ba53de;
+    margin: 0;
+    padding: 0;
+    height: 4000px;
+}
+
+form{
+    width: 100%;
+    height: 100vh;
+}
+
+.header{
+    background-color: #d187ec;
+    width: 100%; 
+    display: inline-block;
+}
+
+.nav h1{
+    color: rgb(143, 44, 44);
+    font-variant: small-caps;
+    display: inline-block;
+    margin-right: 15pc;
+}
+
+.nav{
+    list-style-type: none;
+    padding-left: 20px;
+    margin-top: 0;
+    text-decoration: none;
+    
+}
+
+.nav li{
+    margin-right: 20px;
+    text-align: left;
+    display: inline-block;
+    border: 1px solid rgba(255, 255, 255, 0);
+    border-radius: 10px;
+    padding: 3px 10px;
+    transition: 0.5s;
+}
+
+.nav a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav li:hover{
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+.nav .current:hover{
+    background-color: rgb(143, 44, 44);
+    color: #fff;
+    border: 1px solid rgb(143, 44, 44);
+    border-radius: 10px;
+    padding: 3px 10px;
+}
+
+.nav .current{ 
+    background-color: rgb(143, 44, 44);
+    border: 1px solid rgb(143, 44, 44);
+    border-radius: 10px;
+    padding: 3px 10px;
+} 
+
+
+div .logo{
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: 5em auto;
+    margin-bottom: 0px;
+    border: 1px solid rgb(143, 44, 44);
+    border-radius: 50%;
+}
+
+div .logo_name{
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+    color: rgb(143, 44, 44);
+    margin: 5px 0px;
+}
+
+div .logo_des{
+    width: 600px;
+    text-align: center;
+    font-size: 20px;
+    color: #c5c5c5;
+    margin: 10px auto;
+}
+
+div .logo_btn{
+    font-size: 1.5em;
+    background-color: rgb(143, 44, 44);
+    border: 1px solid rgb(143, 44, 44);
+    color: #c5c5c5;
+    text-transform: uppercase;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.page_title{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(143, 44, 44);
+    text-decoration: underline;
+
+}
